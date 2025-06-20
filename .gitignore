@@ -1,0 +1,31 @@
+# Hugo generated files
+/public/
+/.hugo_build.lock
+/resources/_gen/
+
+# Hugo Modules (もしサイトでモジュールを使用する場合)
+# go.mod と go.sum は、サイトがHugo Moduleとして初期化された場合にのみ生成されます。
+# themes/Kagyl の go.mod, go.sum はそれぞれのテーマリポジトリで管理します。
+/go.mod
+/go.sum
+/modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*~
+*.log
+*.bak
+
+# content file
+/content/
+/data/
+hugo.toml
