@@ -41,3 +41,7 @@ a#blog-title {
 .page-list-date {
   color: darkgrey;
 }
+
+pre {
+  white-space: pre-wrap;
+}
