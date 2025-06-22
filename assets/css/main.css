@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
-  max-width: 768px;
+  /* max-width: 1000px; */
 }
 
 header {
@@ -19,4 +19,25 @@ footer {
 a {
   color: #00e;
   text-decoration: none;
+}
+
+img {
+  max-height: 400px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: solid 1px black;
+  padding: 3px 10px;
+}
+
+a#blog-title {
+  color: coral;
+}
+
+.page-list-date {
+  color: darkgrey;
 }
