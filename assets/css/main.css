@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
+  /* background-color: snow; */
   /* max-width: 1000px; */
 }
 
@@ -23,6 +24,15 @@ a {
 
 img {
   max-height: 400px;
+}
+
+blockquote {
+  padding: 10px 10px 10px 20px;
+  box-sizing: border-box;
+  /* border: solid 2px dimgray; */
+  font-style: italic;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 table {
